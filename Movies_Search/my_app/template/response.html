@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+{% for d in data %}
+<table>
+ <tbody>
+        <tr>
+            <td><b>Title: </b></td>
+            <td>{{ d.Title }}</td>
+        </tr>
+        <br>
+        <tr>
+            <td><b>Plot: </b></td>
+            <td>{{ d.Plot }}</td>
+        </tr>
+        <br>
+                <tr>
+            <td><b>Release Year: </b></td>
+            <td>{{ d.Release_Year }}</td>
+        </tr>
+        <br>
+        <tr>
+            <td><b>Director: </b></td>
+            <td>{{ d.Director }}</td>
+        </tr>
+        <br>
+                <tr>
+            <td><b>Cast: </b></td>
+            <td>{{ d.Cast }}</td>
+        </tr>
+        <br>
+                        <tr>
+            <td><b>Wiki Page: </b></td>
+            <td>{{ d.Wiki_Page }}</td>
+        </tr>
+        <br>
+                                <tr>
+            <td><b>Plot: </b></td>
+            <td>{{ d.Plot }}</td>
+        </tr>
+        <br>
+        <hr>
+    </tbody>
+
+</table>
+
+{% endfor %}
+
+
+</body>
+</html>

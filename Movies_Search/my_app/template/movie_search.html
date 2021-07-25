@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>skfmdmfd</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+  <form action="" method="post">
+    {% csrf_token %}
+  <select id="attributes" name="attributes">
+    <option value="Title">Title</option>
+    <option value="Release Year">Release Year</option>
+    <option value="Origin">Origin</option>
+    <option value="Director">Director</option>
+      <option value="Cast">Cast</option>
+      <option value="Genre">Genre</option>
+      <option value="Wiki Page">Wiki Page</option>
+      <option value="Plot">Plot</option>
+  </select>
+      <input type="text" for="value" name="value" id="data">
+  <input type="Submit">
+</form>
+</html>
